@@ -1,0 +1,10 @@
+{
+  "name": "reddit-hot-rss",
+  "version": "1.0.0",
+  "description": "Read the hottest posts of a subreddit from its public RSS feed. No API key, no dependencies.",
+  "type": "module",
+  "bin": { "reddit-hot-rss": "reddit-hot.mjs" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
